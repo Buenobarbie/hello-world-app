@@ -16,4 +16,4 @@ jobs:
       - name: Build and tag container image
         run: |
           cd backend
-          docker build -t hello-world-api 
+          docker build -t hello-world-api .
